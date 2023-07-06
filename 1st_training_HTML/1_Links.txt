@@ -1,0 +1,21 @@
+Intro to HTML:- https://docs.google.com/document/d/10Gm9qLWXe3u_HDIDH_dfuehTwXPeKNf_G6jsIfXXziI/edit#heading=h.1qyp2pomvm4v
+
+Learn css :- https://web.dev/learn/css/
+
+
+scope chain
+call stack
+event loop
+debug breakpoint
+
+
+
+akshay saini
+create js file up to 5 to 10 lines add function / class
+
+exe in browser and obsorve call stack in debugger 
+
+
+jsfile $ss of callstack 
+
+gitbucket

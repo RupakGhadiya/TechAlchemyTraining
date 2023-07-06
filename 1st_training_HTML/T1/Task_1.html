@@ -1,0 +1,146 @@
+<!-- Make Table using html bootstrap  -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <title>Task 1</title>
+    <style>
+      table {
+        margin-top: 5rem;
+        border: 1px solid black;
+        display: flex;
+        width: fit-content;
+        background-color: rgba(0, 0, 0, 0.131);
+        border-radius: 15px;
+      }
+      tbody {
+        padding: 10px;
+      }
+      td {
+        padding: 15px;
+      }
+      td:hover {
+        background-color: rgba(19, 140, 0, 0.367);
+        border-radius: 10px;
+      }
+      .days th {
+        text-align: center;
+        color: white;
+        border-radius: 10px;
+        background-color: rgb(136, 0, 255);
+        margin: 50px;
+      }
+      .heading1 {
+        padding: 5px;
+        opacity: 80%;
+        border-bottom: 1px solid black;
+      }
+      .heading2 {
+        text-align: center;
+        opacity: 80%;
+      }
+      .current {
+        border-radius: 10px;
+      }
+      .sunday{
+        background-color: rgba(255, 0, 0, 0.394);
+        /* border-radius: 10px; */
+      }
+      .sunday1{
+        background-color: rgba(255, 0, 0, 0.394);
+        border-radius: 10px 10px 0px 0px ;
+      }
+      .sunday4{
+        background-color: rgba(255, 0, 0, 0.394);
+        border-radius: 0px 0px 10px 10px ;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <table>
+        <tbody>
+          <tr>
+            <th class="heading1" colspan="7">
+              Monday <br /><span>June 6 2023</span>
+            </th>
+          </tr>
+
+          <tr>
+            <th class="heading2" colspan="7">June</th>
+          </tr>
+          <tr class="days">
+            <th scope="col">S</th>
+            <th scope="col">M</th>
+            <th scope="col">T</th>
+            <th scope="col">W</th>
+            <th scope="col">T</th>
+            <th scope="col">F</th>
+            <th scope="col">S</th>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>01</td>
+            <td>02</td>
+            <td>03</td>
+          </tr>
+          <tr>
+            <td class="sunday1">04</td>
+            <td>05</td>
+            <td class="current bg-warning text-white">06</td>
+            <td>07</td>
+            <td>08</td>
+            <td>09</td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td class="sunday ">11</td>
+            <td>12</td>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+            <td>16</td>
+            <td>17</td>
+          </tr>
+          <tr>
+            <td class="sunday ">18</td>
+            <td>19</td>
+            <td>20</td>
+            <td>21</td>
+            <td>22</td>
+            <td>23</td>
+            <td>24</td>
+          </tr>
+          <tr>
+            <td class="sunday4">25</td>
+            <td>26</td>
+            <td>27</td>
+            <td>28</td>
+            <td>29</td>
+            <td>30</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

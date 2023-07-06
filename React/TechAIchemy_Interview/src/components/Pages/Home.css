@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300&family=Mulish:wght@800&family=Poppins:wght@400;700&family=Sofia+Sans:wght@300;400;800&family=Ubuntu:wght@700&display=swap');
+
+
+.homepage {
+    /* width: 75%; */
+    /* background-color: aqua; */
+    margin-left: 20%;
+    padding: 2rem;
+}
+
+.HomeNavBtn {
+    padding-top: 5px; 
+    background-color: #503E9D;
+    font-size: 1rem;
+    color: white;
+    font-weight: 900;
+    border-radius: 10px;
+    height: 45px;
+    width: 45px;
+    border: 0px;
+}
+
+.HomeNavBtn2 {
+    margin-left: 1rem;
+    padding-top: 5px;
+    height: 45px;
+    width: 45px;
+    background-color: #FB6D3A;
+    font-size: 1rem;
+    color: white;
+    font-weight: 900;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.home_nav {
+    display: flex;
+    gap: 1rem;
+
+}
+
+.home_nav2 {
+    float: right;
+    margin-left: 22rem;
+    right: 0%;
+}
+
+.home_nav input[type=text] {
+    padding: 10px;
+    margin-top: 0.5rem;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    color: #626264;
+    background-color: #F7F7F7;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    width: 335px;
+    height: 1.6rem;
+    border: 0px;
+    padding-left: 15px;
+    margin-right: 1rem;
+
+}
+
+
+.home_category {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.catogarybtn {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    background: transparent;
+    border: 0px;
+    cursor: pointer;
+}
+
+.catogarybtn span {
+    padding: 15px;
+}
+
+.catogaryImg {
+    height: 30px;
+    width: 30px;
+    padding: 7px;
+    padding-top: 15px;
+    border-radius: 12px;
+    background-color: #F7F7F7;
+    margin-right: 10px;
+}
+
+.category {
+    display: flex;
+    gap: 2rem;
+}

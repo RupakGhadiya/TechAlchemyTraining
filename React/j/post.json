@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "id": "2",
+      "name": "Rupak",
+      "current_price": "500000000",
+      "image": "R"
+    },
+    {
+      "id": "2",
+      "name": "Rupak",
+      "current_price": "500000000",
+      "image": "R"
+    },
+    {
+      "restaurantName": "APY",
+      "restaurantImage": "C:\\fakepath\\apy.png",
+      "isOpen": "100",
+      "id": "66DzdJu"
+    }
+  ]
+}

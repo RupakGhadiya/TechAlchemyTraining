@@ -1,0 +1,55 @@
+.menucard {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.menu {
+    width: 320px;
+    height: 246px;
+}
+
+.menu img {
+    width: 300px;
+    height: 150px;
+    border-radius: 16px;
+}
+
+.menuTitle {
+    display: flex;
+}
+
+.menuTitleMain {
+    margin-top: 1rem;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #182135;
+
+}
+
+.menuTitle .path {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.menuTitle .price {
+    width: 51px;
+    height: 24px;
+    left: 621px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    /* float: right; */
+}
+.menuTab{
+    margin-top: 3rem;
+}

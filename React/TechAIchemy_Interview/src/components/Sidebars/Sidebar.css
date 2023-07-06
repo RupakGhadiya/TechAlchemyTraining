@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300&family=Mulish:wght@800&family=Poppins:wght@400;700&family=Sofia+Sans:wght@300;400;800&family=Ubuntu:wght@700&display=swap');
+
+
+.sidebar {
+    padding: 2rem;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    width: 16%;
+    height: fit-content;
+    background: #F7F7F7;
+    border-radius: 0px 24px 24px 0px;
+}
+
+.logo {
+margin-bottom: 2rem;
+    display: flex;
+    gap: 0.3rem;
+}
+
+.logo img {}
+
+.sidebaricon {
+    width: 24px;
+    height: 23px;
+    margin-right: 15px;
+}
+
+.logo h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.nav_link {
+
+    list-style: none;
+    text-decoration: none;
+}
+
+.sidebarlink {
+    display: flex;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    padding: 10px 20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #626264;
+
+}
+
+.sidebarlink:active,
+.sidebarlink:hover {
+    border-radius: 12px;
+    color: white;
+    background-color: #503E9D;
+    width: 11rem;
+    font-weight: 600;
+
+}
+
+.sidebartitle {
+    text-decoration: none;
+}
+
+.Nav_menu_items {
+    padding-left: 0px;
+}
+.sidebarcard{
+    
+    
+/* left: 32px; */
+}
+.sidebarcard img{
+    margin-top: 7rem;
+    width: 12rem;
+height: 17.75rem;
+margin-bottom: 10rem;
+}

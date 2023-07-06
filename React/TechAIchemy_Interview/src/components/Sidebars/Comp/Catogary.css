@@ -1,0 +1,88 @@
+.cardCards {
+    height: auto;
+    margin: 15px;
+    height: 282px;
+    
+}
+
+.cardCards img {
+    border-radius: 16px;
+}
+
+.restorent {
+    margin-top: 3rem;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.CardsTitle {
+    display: flex;
+}
+
+.CardsTitle h1 {
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    width: 13rem;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: black;
+}
+
+.CardsTitle link {
+    text-decoration: none;
+}
+
+.CardsTitle button {
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: none;
+    width: 73px;
+    height: 24px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+    /* margin-left: 6.2rem; */
+    margin-top: 13px;
+}
+
+.CardsTitle .open-btn {
+    background-color: #503E9D1A;
+    color: #503E9D;
+}
+
+.CardsTitle .close-btn {
+    color: #FB6D3A;
+    background-color: #FB6D3A1A;
+}
+
+.cardCards p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    width: 18rem;
+    height: 54px;
+    color: black;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.cardCards img {
+    width: 18rem;
+    height: 10rem;
+}
+
+.restoCard1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}

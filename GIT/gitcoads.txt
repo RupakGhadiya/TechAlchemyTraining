@@ -1,0 +1,32 @@
+follow this coads 
+
+1. first config username $ e-mail
+
+git config --global user.name "Rupak Ghadiya"
+git config --global user.email "rupak.ghadiya@techalchemy.com"
+
+
+2. setup in local machine
+
+git init
+
+
+
+(then copy origin link)
+git remote add origin https://bitbucket.org/techalchemy-training/js_training/src/main/
+
+
+(to see all origin write "git remote -v")
+(to making new branch  "git checkout -b newbranch_name old_name")
+(to see current branch " git branch -vv")
+
+(to see status " git status ")
+git add .
+git commit -m "commit name"
+git push -u -f origin main
+
+
+
+first time it will ask for user name password
+go to https://bitbucket.org/account/settings/ to see user name
+and add (app password) in same link for password

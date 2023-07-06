@@ -1,0 +1,86 @@
+.restDetails {
+    margin-left: 20%;
+    padding: 2rem;
+}
+
+.restDetailsHeader {
+    display: flex;
+    gap: 1rem;
+}
+
+.restDetailsTitle {
+    width: 498px;
+}
+
+.restDetailsTitle h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #182135;
+}
+
+.restDetailsTitle p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #626264;
+    width: 458px;
+    height: 96px;
+}
+
+.restTime {
+    display: flex;
+    gap: 10px;
+}
+
+.restTime div h2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #626264;
+    width: 245px;
+    height: 48px;
+    margin-top: 5px;
+}
+
+.restTime span svg {
+    color: #A3A3A4;
+    width: 24px;
+    height: 24px;
+    margin-top: 15px;
+}
+
+.restPhone {
+    display: flex;
+    gap: 10px;
+}
+
+.restPhone span svg {
+    height: 18px;
+    width: 18px;
+    color: #A3A3A4;
+    margin-top: 15px;
+}
+
+.restPhone h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #626264;
+
+}
+
+.restDetailsImg img {
+    width: 490px;
+    height: 266px;
+    margin-top: 3rem;
+    border-radius: 16px;
+}

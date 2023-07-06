@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500&display=swap");
+.app {
+  background: #daf0ff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dark-mode {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 33.5px;
+  width: 375px;
+  height: 812px;
+  background: linear-gradient(191.34deg, #17181a -4.95%, #17181a 103.74%);
+  border-radius: 39px;
+  box-shadow: 80px 45px 70px rgba(0, 107, 181, 0.63);
+
+  /* filter: blur(70px); */
+}
+.light-mode {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 33.5px;
+    width: 375px;
+    height: 812px;
+    background: #F7F8FB;
+    border-radius: 39px;
+    box-shadow: 80px 45px 70px rgba(0, 107, 181, 0.63);
+  
+    /* filter: blur(70px); */
+  }
+.light-mode .main_display .result div{
+    color: #424242;
+}
+.light-mode .keybord .key1 button{
+    background: #ffffff;
+}
+.light-mode .keybord .key2 button,.light-mode .keybord .key3 #minus,.light-mode .keybord .key4 #plus{
+    background: #ADE2FF;
+}
+.light-mode .keybord .key2 #back,.light-mode .keybord .key2 #ac{
+    background: #ffffff;
+}
+
+
+
+.light-mode .keybord .key3 button{
+    background: #ffffff;
+}
+.light-mode .keybord .key4 button{
+    background: #ffffff;
+}
+.light-mode .keybord .key5 button{
+    background: #ffffff;
+}
+.light-mode .keybord .key6 button{
+    background: #ffffff;
+}
+
+.display {
+  width: 100%;
+}
+.main_display{
+    /* float: right; */
+}
+.history {
+  border: 1px solid white;
+  padding: 10px;
+  height: 120px;
+  color: #818181;
+  background-color: transparent;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  overflow: scroll;
+  overflow: hidden;
+}
+.result {
+  /* border: 1px solid white; */
+  height: 72px;
+  margin-bottom: 70px;
+}
+.result div {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  color: #ffffff;
+}
+.input {
+  /* border: 1px solid white; */
+  /* padding: 5px; */
+ 
+  height: 36px;
+  
+}
+.input input {
+    float: right;
+    width: 100%;
+  color: #818181;
+  background-color: transparent;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 20px;
+}
+
+.key1 {
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  height: 40px;
+}
+.key1 button {
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #29a8ff;
+  /* padding: 6px 4px; */
+  padding-bottom: 5px;
+  border: none;
+  width: 70px;
+  height: 40px;
+  background: #303136;
+  border-radius: 24px;
+}
+.key2 {
+  display: flex;
+  /* border: 1px solid white; */
+  width: 100%;
+  gap: 30px;
+  height: 70px;
+}
+.key2 button {
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  margin-top: 20px;
+  color: #339dff;
+  background: #005db2;
+  padding: 6px 4px;
+  border: none;
+  width: 70px;
+  height: 70px;
+
+  border-radius: 16px;
+}
+.key3 {
+  display: flex;
+  /* border: 1px solid white; */
+  width: 100%;
+  gap: 30px;
+  height: 70px;
+}
+.key3 button {
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 36px;
+  margin-top: 40px;
+  color: #29a8ff;
+  padding: 6px 4px;
+  border: none;
+  width: 70px;
+  height: 70px;
+  background: #303136;
+  border-radius: 16px;
+}
+.key4 {
+  display: flex;
+  /* border: 1px solid white; */
+  width: 100%;
+  gap: 30px;
+  height: 70px;
+}
+.key4 button {
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 36px;
+  margin-top: 60px;
+  color: #29a8ff;
+  padding: 6px 4px;
+  border: none;
+  width: 70px;
+  height: 70px;
+  background: #303136;
+  border-radius: 16px;
+}
+.key5 {
+  display: flex;
+  /* border: 1px solid white; */
+  width: 100%;
+  gap: 30px;
+  height: 70px;
+}
+.key5 button {
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 36px;
+  margin-top: 80px;
+  color: #29a8ff;
+  padding: 6px 4px;
+  border: none;
+  width: 70px;
+  height: 70px;
+  background: #303136;
+  border-radius: 16px;
+}
+.key6 {
+  display: flex;
+  /* border: 1px solid white; */
+  width: 100%;
+  gap: 30px;
+  height: 70px;
+}
+.key6 button {
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 36px;
+  margin-top: 100px;
+  color: #29a8ff;
+  padding: 6px 4px;
+  border: none;
+  width: 70px;
+  height: 70px;
+  background: #303136;
+  border-radius: 16px;
+}
+#zero {
+  width: 170px;
+}
+#equal {
+  height: 110px;
+  margin-top: 60px;
+  background-color: #1991ff;
+  color: #b2daff;
+}
+#plus {
+  height: 110px;
+  color: #339dff;
+  background: #005db2;
+}
+
+#ac,
+#back {
+  background-color: #616161;
+  color: #a5a5a5;
+}
+#minus {
+  color: #339dff;
+  background: #005db2;
+}
+#backspace svg {
+  font-size: 30px;
+  margin-top: 10px;
+}
+#dot svg {
+  margin-top: 10px;
+}

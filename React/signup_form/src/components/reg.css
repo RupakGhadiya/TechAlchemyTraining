@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.main {
+  height: 99vh;
+}
+.leftcol {
+  height: 99vh;
+  
+  background-color: #CAD5E2;
+}
+.loginform {
+  margin-top: 5rem;
+  align-items: center;
+  padding: 3rem;
+  text-align: center;
+}
+.title {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 3rem;
+  color: #CAD5E2;
+  margin-bottom: 10px;
+}
+.subtitle {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  color: rgb(194, 192, 192);
+  margin-bottom: 15px;
+}
+.socialmedia {
+  justify-content: center;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 15px;
+}
+.socialmedia button {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+}
+.facebook:hover,
+.linkedin:hover,
+.google:hover {
+  background-color: black;
+}
+.facebook,
+.linkedin {
+  background-color: #4a546b;
+  color: #CAD5E2;
+  border: none;
+}
+.google {
+  border: none;
+  background-color: #ce5743;
+  color: #CAD5E2;
+}
+.or {
+  color: #383CC1;
+}
+.login_form input {
+  /* font-size: 0.8rem; */
+
+  width: 70%;
+  border-radius: 20px;
+  margin-bottom: 0.7rem;
+  /* border: 2px solid #383CC1; */
+  border: none;
+  background-color: #ffffff;
+  color: #383CC1;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+}
+.email {
+  /* margin-left: 30px; */
+  margin-bottom: 15px;
+}
+.password {
+  /* margin-top: 15px; */
+  margin-bottom: 15px;
+}
+.togglePassword{
+  margin-left: -50px;
+  cursor: pointer;
+  color: #383CC1;
+}
+.togglePassword2{
+    display: none;
+}
+.signin {
+    margin-top: 15px;
+  padding: 0.6rem 5rem;
+  border-radius: 30px;
+  border: none;
+  background-color: #383CC1;
+  color: #CAD5E2;
+  /* transition: background-color 0.7s; */
+}
+.signin:hover {
+  /* width: 70%; */
+  background-color: black;
+}
+
+.rightcol {
+  height: 99vh;
+  background-color: #383CC1;
+  padding: 2rem;
+}
+.loginextra {
+  margin-top: 50%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.title2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 2.7rem;
+  color: #CAD5E2;
+  margin-bottom: 30px;
+}
+.subtitle2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  color: rgb(227, 227, 227);
+  margin-bottom: 30px;
+}
+.signup {
+  padding: 0.6rem 5rem;
+  border-radius: 30px;
+  border: none;
+  background-color: #CAD5E2;
+  color: black;
+  transition: background-color 0.7s;
+}
+.signup:hover {
+  background-color: black;
+  color: #CAD5E2;
+}
+
+@media (max-width: 1086px) and (min-width: 766px) {
+  .title {
+    font-size: 2rem;
+  }
+  .title2 {
+    font-size: 1.7rem;
+  }
+  .subtitle2 {
+    font-size: 0.8rem;
+  }
+  .signup {
+    padding: 0.6rem 2rem;
+    font-size: 0.8rem;
+  }
+  .loginextra {
+    margin-top: 90%;
+  }
+}
+@media (max-width: 760px) and (min-width: 560px) {
+  .loginform {
+    margin-top: 2rem;
+    /* height: 5rem; */
+  }
+  .leftcol {
+    height: 80vh;
+  }
+  .rightcol {
+    height: 40vh;
+  }
+  .loginextra {
+    margin-top: 1rem;
+  }
+}
+@media (min-width: 560) {
+  .title {
+    font-size: 0.3rem;
+  }
+  .signup {
+    padding: 0.6rem 2rem;
+    font-size: 0.8rem;
+  }
+}
+
+/* Signup     */
+
+.stitle2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 2.7rem;
+  color: #CAD5E2;
+  margin-bottom: 30px;
+}
+.ssubtitle2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  color: #CAD5E2;
+  margin-bottom: 30px;
+}
+.ssignup {
+  padding: 0.6rem 5rem;
+  border-radius: 30px;
+  border: none;
+  background-color: #CAD5E2;
+  color: #383CC1;
+  transition: background-color 0.7s;
+}
+.ssignup:hover {
+  background-color: #000000;
+  color: #CAD5E2;
+}
+
+.stitle {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 3rem;
+    color: black;
+    margin-top: 3rem;
+    margin-bottom: 10px;
+  }
+  .ssubtitle {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    color: rgb(65, 65, 65);
+    margin-bottom: 15px;
+  }
+.ssignin {
+    margin-top: 15px;
+    padding: 0.6rem 5rem;
+    border-radius: 30px;
+    border: none;
+    background-color: #383CC1;
+    color: rgb(255, 255, 255);
+    transition: background-color 0.7s;
+  }
+  .ssignin:hover {
+    background-color: black;
+    color: #CAD5E2;
+  }
+  .signupform {
+    align-items: center;
+    padding: 0.4rem 3rem;
+    text-align: center;
+    height: 94.5vh;
+  }
+
+
+
