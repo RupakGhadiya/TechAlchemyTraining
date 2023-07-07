@@ -1,0 +1,55 @@
+.AdminSidebarMain{
+    display: flex;
+}
+.AdminSidebar{
+    background-color: white;
+    width: 15rem;
+    padding: 1rem;
+    margin-right: 0px;
+    margin: 20px;
+    height: 95vh;
+    border: 2px solid #774181;
+    border-radius: 15px;
+    position:relative;
+}
+.AdminSidebar .title{
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.AdminSidebar .title span img{
+    height: 80px;
+    width: 80px;
+}
+.AdminSidebar .link_name li .linkaa{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+.AdminSidebar .link_name li{
+    font-size: 25px;
+    text-decoration: none;
+}
+#abminlink1{
+    position: absolute;
+    list-style: none;
+    left: 0px;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#abminlink2{
+    position: absolute;
+    list-style: none;
+    bottom: 0px;
+    left: 0px;
+}
+.AdminSidebarNav{
+    height: 80px;
+    width: 77%;
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid #774181;
+    margin-top: 1rem;
+}

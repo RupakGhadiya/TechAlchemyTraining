@@ -1,0 +1,75 @@
+.History {
+  padding: 2.5rem;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 2rem;
+}
+.HistoryCard {
+  /* width: 75%; */
+  height: 6rem;
+  border: 2px solid #774181;
+  border-radius: 10px;
+  position: relative;
+  /* overflow-: hidden; */
+  /* height: fit-content; */
+}
+.HistoryCardSRno {
+  position: absolute;
+  margin-top: -15px;
+  margin-left: -10px;
+  padding: 0px 10px;
+  color: white;
+  background-color: green;
+  border: 3px solid white;
+  border-radius: 20px;
+  width: fit-content;
+}
+.HistoryCardContent {
+  display: flex;
+}
+.HistoryCardtime {
+  padding: 15px;
+  background-color: #774181;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  height: 5.9rem;
+  width: 7rem;
+  border-bottom-left-radius: 10px;
+}
+.HistoryCardtime h2 {
+    margin-top: 10px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+.HistoryCardtime p {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  opacity: 70%;
+}
+.HistoryCardName {
+  padding: 15px;
+  /* background-color: #774181; */
+  /* color: white; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.HistoryCardName h1 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+}
+.HistoryCardName p {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  opacity: 70%;
+  text-align: center;
+  margin-bottom: opx;
+}

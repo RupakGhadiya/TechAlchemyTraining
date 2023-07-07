@@ -1,0 +1,69 @@
+.BookingForm {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+.BookingFormCard {
+  width: 600px;
+  box-sizing: border-box;
+  background: #fff;
+  border: 2px solid #6e6e6e;
+  border-radius: 15px;
+  margin: 0 auto 60px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 1px 2px 5px #774181;
+}
+.BookingFormHeading{
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 25px;
+    float: left;
+}
+
+.BookingFormMTitle {
+  display: flex;
+  box-sizing: border-box;
+  margin: 1px 0;
+  padding: 4px 0 4px 145px;
+  position: relative;
+  width: 100%;
+   
+}
+.BookingFormTitleLable {
+  /* word-wrap: break-word; */
+  /* white-space: nowrap; */
+  float: left;
+  margin-left: -145px;
+  padding: 5px 0 0;
+  position: relative;
+  text-align: right;
+  width: 200px;
+  color: #6b778c;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+.BookingFormTitleInput{
+    width: 300px;
+}
+.BookingFormTitleInput input{
+    height: 40px;
+}
+.BookingFormSaveBtn button{
+    float: right;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+    width: 25%;
+    height: fit-content;
+    padding-bottom: 8px;
+    padding-top: 6px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #774181;
+    color: white;
+}

@@ -1,0 +1,30 @@
+{
+   
+   
+    "result": [
+      {
+        "id": 1,
+        "meetRoomName": "Oxygen",
+        "capacity": 12,
+        "imageUrl": "https://s3-ap-south-1.amazonaws.com/officingnow-media/wp-content/uploads/2018/12/24153549/Meeting-Rooms-in-Pune-21.jpg"
+      },
+      {
+        "id": 2,
+        "meetRoomName": "Nitrogen",
+        "capacity": 8,
+        "imageUrl": "https://content.jdmagicbox.com/comp/pune/x4/020pxx20.xx20.191017140109.g8x4/catalogue/aster-coworking-deccan-gymkhana-pune-meeting-rooms-on-hire-grcv2gmodq.jpg"
+      },
+      {
+        "id": 3,
+        "meetRoomName": "Halogen",
+        "capacity": 8,
+        "imageUrl": "https://assets.flexispaces.com/media/medium/0b98635a-d2b9-4863-9b2f-a91102e16f3c.jpg"
+      },
+      {
+        "id": 4,
+        "meetRoomName": "Argon",
+        "capacity": 6,
+        "imageUrl": "https://www.executivecentre.com/wp-content/uploads/sites/40/2020/10/img-meetingroomrental_meetingroom.jpg"
+      }
+    ]
+  }
